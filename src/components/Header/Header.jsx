@@ -1,6 +1,7 @@
 import React from 'react';
 import './AppHeader.css';
-import { CiSearch } from "react-icons/ci";
+import { FaSearch } from 'react-icons/fa'; // FontAwesome
+
 import { FaPlus } from "react-icons/fa";
 
 import { FaBell } from "react-icons/fa6";
@@ -13,7 +14,7 @@ function AppHeader() {
     
       
       <div className="search-container">
-        <CiSearch className="search-icon" />
+        <FaSearch className="search-icon" />
         <input
           type="text"
           placeholder="Search"
