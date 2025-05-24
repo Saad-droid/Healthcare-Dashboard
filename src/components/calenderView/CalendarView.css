@@ -1,0 +1,165 @@
+.calendar-view {
+    background: #F6FAFF;
+    border-radius: 1rem;
+    padding: 1.5rem;
+    width: 100%;
+  }
+  
+  .calendar-header {
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+  }
+
+  .highlighted-slot {
+  background-color: #3834a99c;
+  color: #2d3436;
+  font-weight: bold;
+}
+  
+  .calendar-title {
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: #374151;
+  }
+  .arrow-tiitle{
+   
+    top: 5%;
+    right: 5%;
+    color: blue;
+    font-size: 40px;
+    position: absolute;
+  }
+
+  .calendar-nav {
+    display: flex;
+    gap: 0.5rem;
+  }
+  
+  .nav-btn {
+    padding: 0.25rem;
+    color: #06b6d4;
+    transition: color 0.2s;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .nav-btn:hover {
+    color: #0891b2;
+  }
+  
+  .calendar-weekdays {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 0.25rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .weekday {
+    text-align: center;
+    font-size: 0.75rem;
+    color: #6b7280;
+    font-weight: 500;
+    padding: 0.5rem;
+  }
+  
+  .calendar-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 0.25rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .calendar-day {
+    background: #f9fafb;
+    border-radius: 0.5rem;
+    padding: 0.75rem;
+    min-height: 5rem;
+  }
+  
+  .day-number {
+    font-weight: 600;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    color: #374151;
+  }
+  
+  .day-times {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+  
+  .time-slot {
+    /* background: #cffafe;
+    color: #0e7490; */
+    font-size: 0.75rem;
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.25rem;
+    font-weight: 500;
+  }
+  
+  .featured-appointments {
+    display: grid;
+    
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+  
+  .appointment-card {
+    padding: 0.5rem;
+    border-radius: 0.75rem;
+  }
+  
+  .appointment-dentist {
+    background: #3736A8;
+    color: white;
+  }
+  
+  .appointment-default {
+    background: #DFE3F8;
+    color: #374151;
+  }
+  
+  .appointment-header {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .appointment-icon {
+    font-size: 1.125rem;
+  }
+  
+  .appointment-title {
+    font-weight: 600;
+    font-size: 0.875rem;
+  }
+  
+  .appointment-time {
+    font-size: 0.875rem;
+    opacity: 0.9;
+    margin-bottom: 0.25rem;
+  }
+  
+  .appointment-doctor {
+    font-size: 0.875rem;
+    opacity: 0.75;
+  }
+  
+
+
+  @media (max-width: 768px) {
+    .calendar-day {
+      padding: 0;
+    }
+
+    .time-slot {
+      padding: 0;
+    }
+    
+  }

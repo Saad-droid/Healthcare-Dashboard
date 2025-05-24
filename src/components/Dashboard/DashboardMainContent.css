@@ -1,0 +1,63 @@
+.main-content {
+    flex: 1;
+    padding: 1.5rem;
+    background: white;
+    overflow: auto;
+  }
+  
+  .dashboard-header {
+    margin-bottom: 1.5rem;
+    width: 50%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .dashboard-title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #111827;
+  }
+  
+  .time-filter {
+    display: flex;
+    align-items: center;
+    right: 0;
+    position: absolute;
+gap: 0.5rem;
+    font-size: 0.875rem;
+    color:#1D4ED8
+  }
+  
+  .dashboard-grid {
+    display: flex;
+    gap:10px;
+    justify-content: space-evenly;
+  }
+  
+  .left-column {
+    display: flex;
+    height: 80%;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 1.5rem;
+  }
+  
+  .right-column {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+
+
+  
+  @media (max-width: 768px) {
+    .dashboard-grid {
+      flex-direction: column;
+    }
+    .time-filter{
+      display: none;
+    }
+  }

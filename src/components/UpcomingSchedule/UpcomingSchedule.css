@@ -1,0 +1,93 @@
+.upcoming-schedule {
+  background: #F6FAFF;
+    border-radius: 1rem;
+    width: 100%;
+    padding: 1.5rem;
+  }
+  
+  .schedule-title {
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: #374151;
+    margin-bottom: 1.5rem;
+  }
+  
+  .schedule-content {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  
+  .day-title {
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #4b5563;
+    margin-bottom: 1rem;
+  }
+  
+  .appointments-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+  
+  .schedule-appointment {
+    background: #DFE3F8;
+    border-radius: 1.75rem;
+    padding: 1rem;
+    transition: box-shadow 0.2s;
+  }
+  
+  .schedule-appointment:hover {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  .appointment-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .appointment-details {
+    flex: 1;
+  }
+  
+  .schedule-appointment-title {
+    font-weight: 500;
+    color: #374151;
+    font-size: 0.875rem;
+    margin-bottom: 0.25rem;
+  }
+  
+  .schedule-appointment-time {
+    font-size: 0.875rem;
+    color: #6b7280;
+  }
+  
+  .appointment-icon-container {
+    width: 2.5rem;
+    height: 2.5rem;
+   
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0.75rem;
+  }
+  
+  .schedule-appointment-icon {
+    font-size: 1.125rem;
+  }
+  
+
+
+
+  
+
+  @media (max-width: 768px) {
+    .schedule-appointment{
+      padding: 10%;
+    }
+    
+  }

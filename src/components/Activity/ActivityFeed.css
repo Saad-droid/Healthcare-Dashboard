@@ -1,0 +1,61 @@
+.activity-chart-container {
+    background-color: #f5f7ff;
+    border-radius: 16px;
+    padding: 20px 25px;
+    width: 100%;
+    margin-top: 10%;
+    font-family: 'Inter', sans-serif;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  }
+  
+  .chart-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .title {
+    font-size: 18px;
+    font-weight: 600;
+    color: #1a1a1a;
+  }
+  
+  .summary {
+    font-size: 14px;
+    color: #888;
+  }
+  
+  .chart-bars {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  
+  .chart-day {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40px;
+  }
+  
+  .day-bars {
+    display: flex;
+    gap: 4px;
+    margin-bottom: 6px;
+    align-items: flex-end;
+    height: 90px;
+  }
+  
+  .bar {
+    width: 6px;
+    border-radius: 4px;
+    transition: height 0.3s ease;
+  }
+  
+  .day-label {
+    font-size: 12px;
+    color: #555;
+    margin-top: 4px;
+  }
+  
