@@ -6,7 +6,8 @@ import { FaCalendarAlt } from "react-icons/fa";
 import { TfiStatsUp } from "react-icons/tfi";
 import { IoChatbubbleEllipsesSharp } from "react-icons/io5";
 import { FaPhone } from "react-icons/fa6";
-import { CiSquarePlus } from "react-icons/ci";
+import { FaCalendarPlus } from "react-icons/fa";
+
 import { IoSettingsOutline } from "react-icons/io5";
 
 
@@ -20,7 +21,7 @@ const iconMap = {
   history: <FaHistory/>, 
   calendar: <FaCalendarAlt/>,
   chart: <TfiStatsUp/>,
-  appointment: <CiSquarePlus />
+  appointment: <FaCalendarPlus />
   
 };
 
