@@ -1,6 +1,6 @@
 import { navigationItems } from '../../data/navigationData';
 import './Sidebar.css';
-import { LuLayoutDashboard } from "react-icons/lu";
+import { MdDashboardCustomize } from "react-icons/md";
 import { FaHistory } from "react-icons/fa";
 import { FaCalendarAlt } from "react-icons/fa";
 import { TfiStatsUp } from "react-icons/tfi";
@@ -16,7 +16,7 @@ import { IoSettingsOutline } from "react-icons/io5";
 
 
 const iconMap = {
-  dashboard: <LuLayoutDashboard/>,
+  dashboard: <MdDashboardCustomize/>,
   history: <FaHistory/>, 
   calendar: <FaCalendarAlt/>,
   chart: <TfiStatsUp/>,
